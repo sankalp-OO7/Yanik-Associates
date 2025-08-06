@@ -653,14 +653,7 @@ export default function ContactSection() {
             delay={0.5}
           />
           
-          <motion.p
-            className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto"
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.6, delay: 1.2 }}
-          >
-            Ready to transform your building's exterior? Let's discuss your project and bring your architectural vision to life.
-          </motion.p>
+  
           
           <motion.div
             className="h-1 w-32 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mx-auto mt-6"
