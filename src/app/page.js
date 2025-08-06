@@ -300,7 +300,7 @@ export default function Home() {
                   />
 
                   <div className="relative w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52 lg:w-60 lg:h-60 mx-auto rounded-lg overflow-hidden border-4 border-white/30 backdrop-blur-sm shadow-2xl">
-                    <div className="w-full h-full bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 flex items-center justify-center relative p-4">
+                    <div className="w-full h-full bg-gradient-to-br from-[#E0F7FA] via-[#C8E6C9] to-[#BBDEFB] flex items-center justify-center relative p-4">
                       <Image
                         src={Logo}
                         alt="YANIK Associates Logo"
